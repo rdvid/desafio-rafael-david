@@ -39,6 +39,8 @@ class CaixaDaLanchonete extends ValidacaoDeProdutos{
         return `R$ ${total}`;
     }
 
+    
+
 }
 
 export { CaixaDaLanchonete };
