@@ -1,16 +1,8 @@
 /**
  * 
- * 
-  | codigo    | descrição                   | valor   |
-  |-----------|-----------------------------|---------|
-  | cafe      | Café                        | R$ 3,00 |
-  | chantily  | Chantily (extra do Café)    | R$ 1,50 |
-  | suco      | Suco Natural                | R$ 6,20 |
-  | sanduiche | Sanduíche                   | R$ 6,50 |
-  | queijo    | Queijo (extra do Sanduíche) | R$ 2,00 |
-  | salgado   | Salgado                     | R$ 7,25 |
-  | combo1    | 1 Suco e 1 Sanduíche        | R$ 9,50 |
-  | combo2    | 1 Café e 1 Sanduíche        | R$ 7,50 |
+ * I create a dictionary with all the menu options to keep my code readable.
+ * In case of further changes in menu, there is a fast and reliable way to extend functions
+ * to our main code.
  * 
  * 
  */

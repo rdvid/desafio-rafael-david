@@ -2,6 +2,17 @@ import { produtos } from "./produtos";
 
 class ValidacaoDeProdutos {
     
+    /**
+     * 
+     * I choose to create a class to extend the main function where i can
+     * implement all the validation methods. This way i can reuse functions in other parts
+     * of the application and keep my main code cleanest as possible.
+     * 
+     * In case of future implements i can easily insert more validations without compromissing other parts
+     * of my application.
+     * 
+     */
+
     calculaDesconto(metodoDePagamento, total){
         switch(metodoDePagamento){
             case "dinheiro":
